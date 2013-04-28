@@ -9,19 +9,19 @@ UltimateStatus - an example Application for JavaFX/Maven
 
 * first, fixing classpathes for JavaFX/JDK7 in MacOS
 
-    sudo mvn com.zenjava:javafx-maven-plugin:1.5:fix-classpath
+        sudo mvn com.zenjava:javafx-maven-plugin:1.5:fix-classpath
 
 * run with
 
-    mvn jfx:run
+        mvn jfx:run
 
 * create webstart folder
 
-    mvn jfx:webstart
+        mvn jfx:build-webstart
 
 * build a native DMG (with all dependencies added)
 
-    mvn jfx:build-native
+        mvn jfx:build-native
 
 
 ## References
